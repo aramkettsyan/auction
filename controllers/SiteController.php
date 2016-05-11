@@ -2,12 +2,14 @@
 
 namespace app\controllers;
 
+use app\models\Users;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\SellerRegistrationForm;
 
 class SiteController extends Controller
 {
@@ -63,6 +65,37 @@ class SiteController extends Controller
             return $this->goBack();
         }
         return $this->render('login', [
+            'model' => $model,
+        ]);
+    }
+
+    public function actionRegistration()
+    {
+        if (!Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+
+        $model = new SellerRegistrationForm();
+        if ($model->load(Yii::$app->request->post()) && $model->Registration()) {
+            $users_model = new Users();
+            $users_model->email = Yii::$app->request->post()['SellerRegistrationForm']['email'];
+            $users_model->username = Yii::$app->request->post()['SellerRegistrationForm']['username'];
+            $users_model->password = Yii::$app->request->post()['SellerRegistrationForm']['password'];
+            $users_model->telephone = Yii::$app->request->post()['SellerRegistrationForm']['telephone'];
+            $users_model->first_name = Yii::$app->request->post()['SellerRegistrationForm']['first_name'];
+            $users_model->last_name = Yii::$app->request->post()['SellerRegistrationForm']['last_name'];
+
+            if($users_model->save()){
+                return $this->redirect('login');
+            }else{
+                foreach ($users_model->getErrors() as $key=>$value){
+                    if(isset($value[0])){
+                        $model->addError($key,$value[0]);
+                    }
+                }
+            }
+        }
+        return $this->render('registration', [
             'model' => $model,
         ]);
     }
