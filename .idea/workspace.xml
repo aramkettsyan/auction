@@ -2,34 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806e4a44-dc48-4e32-9341-3f404d5c8eb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/twillo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/SellerController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/ChangeTelephoneNumberForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/TelephoneActivationForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/UserRegistrationForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/images/gii-entry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/images/gii-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/images/gii-entry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/images/gii-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/images/gii-entry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/images/gii-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/installation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/topics-creating-your-own-generators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/topics-creating-your-own-templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/images/gii-entry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/images/gii-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/images/gii-entry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/images/gii-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter/task-queues.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter/tasks.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter/workers.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter/workflows.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/taskrouter/workspaces.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/token-generation.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/twiml.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/docs/usage/validation.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/package.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/AccessTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/Bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/BuildQueryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/CapabilityTaskRouterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/CapabilityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/NextGenListResourceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/RequestValidatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/TwilioTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/TwimlTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/WorkflowTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/AccountsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ApplicationsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/AvailablePhoneNumbersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/CallsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ConnectAppsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/FeedbackSummaryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/FeedbackTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/IncomingPhoneNumbersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/KeysTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/MediaTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/MembersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/MessagesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/NotificationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/OutgoingCallerIdsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/QueuesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/SMSMessagesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/SandboxTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ShortCodesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/TokensTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/UsageRecordsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/UsageTriggersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/ChannelsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/CredentialsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/MembersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/MessagesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/RolesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/ServicesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/ip-messaging/UsersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/lookups/PhoneNumbersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/monitor/AlertsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/monitor/EventsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/pricing/MessagingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/pricing/PhoneNumbersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/pricing/VoiceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/ActivitiesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/EventsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/ReservationsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/TaskQueueStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/TaskQueuesStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/TaskQueuesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/TasksTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkerStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkersStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkersTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkflowStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkflowsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkspaceStatisticsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/task_router/WorkspacesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/trunking/CredentialListsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/trunking/IpAccessControlLists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/trunking/OriginationUrls.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/trunking/PhoneNumbers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/tests/resources/trunking/TrunksTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.github/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/basic-usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/installation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/topics-creating-your-own-generators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ja/topics-creating-your-own-templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/basic-usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/installation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/topics-creating-your-own-generators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-pt-BR/topics-creating-your-own-templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-ru/basic-usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/basic-usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/installation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/topics-creating-your-own-generators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide-uk/topics-creating-your-own-templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/basic-usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/installation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/topics-creating-your-own-generators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/docs/guide/topics-creating-your-own-templates.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/GeneratorsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/GiiTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/ModelGeneratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/Profile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/SchemaTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/data/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/data/pgsql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/tests/data/sqlite.sql" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/seller/activation.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/seller/change-telephone-number.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/email-sent.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/seller-registration.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/user-registration.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/User.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/auction.iml" afterPath="$PROJECT_DIR$/.idea/auction.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/SharedHostInstall.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/Exceptions/GenericHTTPError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/Exceptions/InvalidCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/Exceptions/MissingEndpoint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/Exceptions/MissingRequiredParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/Exceptions/NoDomainsConfigured.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Connection/RestClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Constants/Api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Constants/ExceptionMessages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Lists/OptInHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Lists/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Mailgun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/BatchMessage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/Exceptions/InvalidParameter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/Exceptions/InvalidParameterType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/Exceptions/MissingRequiredMIMEParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/Exceptions/TooManyParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/MessageBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/src/Mailgun/Messages/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Lists/OptInHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/MailgunTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/MailgunTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Messages/BatchMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Messages/MessageBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Messages/StandardMessageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Mock/Connection/TestBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/Mock/Mailgun.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/TestAssets/mailgun_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mailgun/mailgun-php-test/tests/Mailgun/Tests/TestAssets/mailgun_icon2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/AppAsset.php" afterPath="$PROJECT_DIR$/assets/AppAsset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SiteController.php" afterPath="$PROJECT_DIR$/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/LoginForm.php" afterPath="$PROJECT_DIR$/models/LoginForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/SellerRegistrationForm.php" afterPath="$PROJECT_DIR$/models/SellerRegistrationForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Users.php" afterPath="$PROJECT_DIR$/models/Users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/bin/yii.bat" afterPath="$PROJECT_DIR$/vendor/bin/yii.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/twillo.php" afterPath="$PROJECT_DIR$/components/twillo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Controller.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/base/Controller.php" />
@@ -44,7 +188,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/PhpMessageSource.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/i18n/PhpMessageSource.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/et/yii.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/et/yii.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/main.php" afterPath="$PROJECT_DIR$/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/site/registration.php" afterPath="$PROJECT_DIR$/views/site/registration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/site.css" afterPath="$PROJECT_DIR$/web/css/site.css" />
     </list>
     <ignored path="auction.iws" />
@@ -67,14 +210,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="-153">
               <caret line="166" column="87" selection-start-line="166" selection-start-column="87" selection-end-line="166" selection-end-column="87" />
               <folding>
                 <element signature="e#35#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,7 +327,6 @@
         <option value="$PROJECT_DIR$/views/site/registration.php" />
         <option value="$PROJECT_DIR$/web/.htaccess" />
         <option value="$PROJECT_DIR$/config/db.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vendor/twilio/sdk/Services/Twilio.php" />
         <option value="$PROJECT_DIR$/web/css/site.css" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
@@ -197,6 +349,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -240,6 +393,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,28 +548,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mailgun-php-test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auction" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailgun" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mailgun-php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -496,7 +628,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -564,17 +695,18 @@
       <workItem from="1463080590724" duration="377000" />
       <workItem from="1463298758411" duration="33950000" />
       <workItem from="1463417583053" duration="623000" />
+      <workItem from="1463457225242" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43171000" />
+    <option name="totallyTimeSpent" value="43476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -700,13 +832,6 @@
         <state relative-caret-position="9894">
           <caret line="594" column="20" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -986,11 +1111,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="-153">
           <caret line="166" column="87" selection-start-line="166" selection-start-column="87" selection-end-line="166" selection-end-column="87" />
           <folding>
             <element signature="e#35#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
