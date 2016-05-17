@@ -48,8 +48,8 @@ class SellerRegistrationForm extends Model
 
     public function validateTelephone($attribute, $params)
     {
-        if (strlen($this->telephone)>13) {
-            $this->addError($attribute, 'Telephone number example 0037494678798');
+        if (strlen($this->telephone)!==8) {
+            $this->addError($attribute, 'Invalid telephone number. Please check your number and send again.');
         }
     }
 
@@ -60,19 +60,5 @@ class SellerRegistrationForm extends Model
             return true;
         }
         return false;
-    }
-
-    /**
-     * Finds user by [[username]]
-     *
-     * @return User|null
-     */
-    public function getUser()
-    {
-        if ($this->_user === false) {
-            $this->_user = User::findByUsername($this->username);
-        }
-
-        return $this->_user;
     }
 }
